@@ -11,7 +11,8 @@
     --gray-color: #ccc;
     --gray-dark-color: #666666;
     --black-color: #000;
-    --link-color: #509ee3;
+    --link-color: #0A57A3;
+    --link-ligth-color: #FFFFFF;
     --title-color: #333;
     --text-color: #222;
     --white-alpha-color: rgba(255,255,255,0.5);
@@ -46,6 +47,7 @@ body{
 
 a {
     color: var(--link-color);
+    text-decoration: none;
     transition: all 0.5s ease-out;
 }
 
@@ -549,6 +551,10 @@ progress::-moz-progress-bar{
     text-align: center;
     color: var(--white-color);
     background-color: var(--third-color);
+}
+
+.footer-link{
+    color: var(--link-ligth-color);
 }
 
 .header {
