@@ -574,6 +574,16 @@ progress::-moz-progress-bar{
     align-items: center;
 }
 
+.image-proyecto {
+    width: 512px;
+    aspect-ratio: 1/1;
+}
+
+.image-perfil {
+    width: 896px;
+    aspect-ratio: 896/897;
+}
+
 .logo a {
     color: var(--first-color);
     font-weight: bold;
